@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Árbol de Expresiones</title>
+
+    <link rel="stylesheet" href="./css/b5.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leader-line/1.0.7/leader-line.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.8.0/math.min.js"></script>
+</head>
+<body>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center mb-3">
+                <h1>Árbol de Expresiones</h1>
+                <hr>
+            </div>
+            <div class="col-12">
+                <div class="row g-2">
+                    <div class="col">
+                        <input id="expresion" class="form-control" type="text" placeholder="Ingresa la expresión...">
+                    </div>
+                    <div class="col-auto">
+                        <button id="btn-generar" class="btn btn-primary">Generar</button>
+                    </div>
+                </div>
+                <div id="error-msg" class="text-danger mt-2 fw-bold text-center"></div>
+                <div id="arbol" class="mt-4 text-center"></div>
+                <div id="resultado" class="mt-4 text-center fw-bold fs-4"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
